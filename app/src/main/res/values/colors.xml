@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#7f7790ff </color>
+    <color name="colorPrimary">#ffffff </color>
+    <color name="colorSecondary">#9f7790FF</color>
+    <color name="colorOnPrimary">#ffffff </color>
+    <color name="colorOnSecondary">#000000 </color>
+
     <color name="colorPrimaryDark">#7790FF</color>
-    <color name="colorAccent">#7790FF</color>
     <color name="colorSurface">#ffffff</color>
+    <color name="colorOnSurface">#7790FF</color>
+    <color name="colorError">#9b0000</color>
 </resources>
