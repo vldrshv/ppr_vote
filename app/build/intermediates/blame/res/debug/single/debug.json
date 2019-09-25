@@ -12,10 +12,6 @@
         "source": "C:\\Users\\vershov\\AndroidStudioProjects\\pprvote\\app\\src\\main\\res\\drawable-xxxhdpi\\baseline_how_to_vote_black_24.png"
     },
     {
-        "merged": "C:\\Users\\vershov\\AndroidStudioProjects\\pprvote\\app\\build\\intermediates\\res\\merged\\debug\\drawable_gradient_background.xml.flat",
-        "source": "C:\\Users\\vershov\\AndroidStudioProjects\\pprvote\\app\\src\\main\\res\\drawable\\gradient_background.xml"
-    },
-    {
         "merged": "C:\\Users\\vershov\\AndroidStudioProjects\\pprvote\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_baseline_how_to_vote_black_24.png.flat",
         "source": "C:\\Users\\vershov\\AndroidStudioProjects\\pprvote\\app\\src\\main\\res\\drawable-xhdpi\\baseline_how_to_vote_black_24.png"
     },

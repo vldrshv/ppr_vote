@@ -1012,7 +1012,6 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
-drawable gradient_background
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_mtrl_chip_checked_black
@@ -1097,6 +1096,7 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id email
 id end
 id enterAlways
 id enterAlwaysCollapsed
@@ -1132,7 +1132,6 @@ id listMode
 id list_item
 id login
 id masked
-id materialCardView
 id message
 id middle
 id mini
@@ -1153,6 +1152,7 @@ id parent
 id parentPanel
 id parent_matrix
 id password
+id passwordTIL
 id percent
 id pin
 id progress_circular
@@ -1232,7 +1232,6 @@ id uniform
 id unlabeled
 id up
 id useLogo
-id username
 id view_offset_helper
 id visible
 id withText

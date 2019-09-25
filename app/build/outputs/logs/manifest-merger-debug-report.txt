@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
+ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e02fd1899f5e1430921796778b4624e1\material-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\4a1c02a49b10741d9563bb8b4bd09ae5\appcompat-1.0.2\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.core:core-ktx:1.0.2] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\6920b58f15a66cadbcfddfb4ff974cc8\core-ktx-1.0.2\AndroidManifest.xml:2:1-7:12
@@ -39,25 +39,25 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\User
 MERGED from [androidx.print:print:1.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\1b0d0193d3450b575e4ae9b716f9ba44\print-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\de4d07cf665401b16452d69c69243bd7\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\81b4befd56738460558097115169f353\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
-INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
-INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
 	package
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:3:5-35
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:3:9-39
 		INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-23:12
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:1-24:12
 		INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:5:5-21:19
+ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:5:5-22:19
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e02fd1899f5e1430921796778b4624e1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e02fd1899f5e1430921796778b4624e1\material-1.0.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\f0ef8aef0ff19485f5cacf1abac99178\lifecycle-extensions-2.0.0\AndroidManifest.xml:22:5-23:19
@@ -73,33 +73,35 @@ MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\vershov\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.0.2] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\1de0a9dd43466edb809fd2e50593e7f5\core-1.0.2\AndroidManifest.xml:22:18-86
 	android:supportsRtl
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:10:13-39
 	android:label
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:8:13-45
 	android:roundIcon
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:9:13-58
 	android:icon
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:7:13-47
 	android:allowBackup
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:6:13-39
 	android:theme
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:11:9-40
-activity#com.example.ppr_vote.ui.login.LoginActivity
-ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:12:9-20:20
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:11:13-44
+activity#com.example.ppr_vote.login.view.LoginActivity
+ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:12:9-21:20
 	android:label
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:14:13-45
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:14:17-49
+	android:windowSoftInputMode
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:15:17-59
 	android:name
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:13:13-51
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:13:17-77
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:15:13-19:29
+ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:16:13-20:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:16:17-69
+ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:17:17-69
 	android:name
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:16:25-66
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:17:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:18:17-77
+ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:19:17-77
 	android:name
-		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:18:27-74
+		ADDED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:19:27-74
 uses-sdk
 INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
