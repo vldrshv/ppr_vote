@@ -29,6 +29,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.ppr_vote.signup.view.SignupActivity"
+            android:label="О приожении"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/AppTheme" />
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"

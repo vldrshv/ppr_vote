@@ -1,20 +1,23 @@
 package com.example.ppr_vote.login.view
 
+import android.annotation.SuppressLint
+import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import android.text.Editable
 import android.text.TextWatcher
 import android.util.Log
-import android.widget.Button
-import android.widget.EditText
+import android.widget.Toast
+import com.example.ppr_vote.BaseActivity
 
 import com.example.ppr_vote.R
 import com.example.ppr_vote.login.LoginController
 import com.example.ppr_vote.login.LoginPresenter
+import com.example.ppr_vote.signup.view.SignupActivity
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.activity_login.*
 
-class LoginActivity : AppCompatActivity(), LoginController.View {
+class LoginActivity : BaseActivity(), LoginController.View {
 
     private val CLASS_TAG = "LoginActivity"
     private val loginPresenter = LoginPresenter(this)
@@ -27,10 +30,11 @@ class LoginActivity : AppCompatActivity(), LoginController.View {
             // TODO validate email
         }
         password.afterTextChanged {
-            login.isEnabled = (!email.text!!.isBlank() && !password.text!!.isBlank())
+            login.isEnabled = (!getEmail().isBlank() && !getPassword().isBlank())
         }
         login.setOnClickListener { loginPresenter.onLoginClicked() }
-
+        forgetPassword.setOnClickListener { loginPresenter.onForgetClicked() }
+        signup.setOnClickListener { loginPresenter.onSignupClicked() }
     }
 
     override fun getEmail(): String {
@@ -46,22 +50,13 @@ class LoginActivity : AppCompatActivity(), LoginController.View {
         Log.i(CLASS_TAG, "ERROR")
     }
 
+    @SuppressLint("ShowToast")
     override fun welcomeUser() {
-        Log.i(CLASS_TAG, "Welcome $email")
+        Log.i(CLASS_TAG, "Welcome ${getEmail()}")
+        Toast.makeText(this, "Welcome ${getEmail()}", Toast.LENGTH_LONG).show()
     }
-}
 
-/**
- * Extension function to simplify setting an afterTextChanged action to EditText components.
- */
-fun TextInputEditText.afterTextChanged(afterTextChanged: (String) -> Unit) {
-    this.addTextChangedListener(object : TextWatcher {
-        override fun afterTextChanged(editable: Editable?) {
-            afterTextChanged.invoke(editable.toString())
-        }
-
-        override fun beforeTextChanged(s: CharSequence, start: Int, count: Int, after: Int) {}
-
-        override fun onTextChanged(s: CharSequence, start: Int, before: Int, count: Int) {}
-    })
+    override fun registerUser() {
+        startActivity(Intent(this, SignupActivity::class.java))
+    }
 }

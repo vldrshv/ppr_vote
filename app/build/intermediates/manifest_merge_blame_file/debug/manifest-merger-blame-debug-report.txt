@@ -6,58 +6,68 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="22"
-8-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
+8-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml
+9-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:5:5-22:19
+11-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:5:5-27:19
 12        android:allowBackup="true"
-12-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:6:13-39
+12-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:6:13-39
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.0.2] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\1de0a9dd43466edb809fd2e50593e7f5\core-1.0.2\AndroidManifest.xml:22:18-86
+13-->[androidx.core:core:1.0.2] C:\Users\user\.gradle\caches\transforms-2\files-2.1\78210307199941c5ac7605e3d3da55ce\core-1.0.2\AndroidManifest.xml:22:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:7:13-47
+15-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:7:13-47
 16        android:label="@string/app_name"
-16-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:8:13-45
+16-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:8:13-45
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:9:13-58
+17-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:9:13-58
 18        android:supportsRtl="true"
-18-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:10:13-39
+18-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:10:13-39
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:11:13-44
+20-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:11:13-44
 21        <activity
-21-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:12:9-21:20
+21-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:12:9-21:20
 22            android:name="com.example.ppr_vote.login.view.LoginActivity"
-22-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:13:17-77
+22-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:13:17-57
 23            android:label="@string/app_name"
-23-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:14:17-49
+23-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:14:17-49
 24            android:windowSoftInputMode="adjustResize" >
-24-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:15:17-59
+24-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:15:17-59
 25            <intent-filter>
-25-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:16:13-20:29
+25-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:16:13-20:29
 26                <action android:name="android.intent.action.MAIN" />
-26-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:17:17-69
-26-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:17:25-66
+26-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:17:17-69
+26-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:17:25-66
 27
 28                <category android:name="android.intent.category.LAUNCHER" />
-28-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:19:17-77
-28-->C:\Users\vershov\AndroidStudioProjects\pprvote\app\src\main\AndroidManifest.xml:19:27-74
+28-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:19:17-77
+28-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:19:27-74
 29            </intent-filter>
 30        </activity>
-31
-32        <provider
-32-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e521018b34dc84787dc6ceabfdb52782\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
-33            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-33-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e521018b34dc84787dc6ceabfdb52782\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
-34            android:authorities="com.example.ppr_vote.lifecycle-process"
-34-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e521018b34dc84787dc6ceabfdb52782\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
-35            android:exported="false"
-35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e521018b34dc84787dc6ceabfdb52782\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
-36            android:multiprocess="true" />
-36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\vershov\.gradle\caches\transforms-2\files-2.1\e521018b34dc84787dc6ceabfdb52782\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-37    </application>
-38
-39</manifest>
+31        <activity
+31-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:22:9-26:51
+32            android:name="com.example.ppr_vote.signup.view.SignupActivity"
+32-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:23:17-59
+33            android:label="О приожении"
+33-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:24:17-44
+34            android:screenOrientation="fullSensor"
+34-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:25:17-55
+35            android:theme="@style/AppTheme" />
+35-->C:\Users\user\Desktop\ppr_vote\ppr_vote\app\src\main\AndroidManifest.xml:26:17-48
+36
+37        <provider
+37-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e82868cf5decd501a5b2e85cb040352d\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+38            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+38-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e82868cf5decd501a5b2e85cb040352d\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+39            android:authorities="com.example.ppr_vote.lifecycle-process"
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e82868cf5decd501a5b2e85cb040352d\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+40            android:exported="false"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e82868cf5decd501a5b2e85cb040352d\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+41            android:multiprocess="true" />
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\user\.gradle\caches\transforms-2\files-2.1\e82868cf5decd501a5b2e85cb040352d\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+42    </application>
+43
+44</manifest>

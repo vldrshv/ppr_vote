@@ -91,8 +91,8 @@
                     android:layout_marginLeft="12dp"
                     android:layout_marginRight="12dp"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/colorPrimaryDark"
                     android:text="Log in"
+                    android:enabled="false"
                     android:layout_gravity="right"/>
 
             <com.google.android.material.button.MaterialButton
@@ -106,5 +106,14 @@
                     android:text="Sign up"
                     android:layout_gravity="right"/>
         </LinearLayout>
+        <com.google.android.material.button.MaterialButton
+                android:id="@+id/forgetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Widget.MaterialComponents.Button.TextButton"
+                android:text="Forget password?"
+                android:layout_marginTop="64dp"
+                android:layout_gravity="center"
+            />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -6,10 +6,13 @@ interface LoginController {
         fun getPassword(): String
         fun showError()
         fun welcomeUser()
+        fun registerUser()
     }
 
     interface Presenter {
         fun onLoginClicked()
+        fun onForgetClicked()
+        fun onSignupClicked()
         fun validatePassword(): Boolean
         fun onDestroy()
     }

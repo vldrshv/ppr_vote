@@ -23,6 +23,14 @@ class LoginPresenter : LoginController.Presenter {
             _mView?.showError()
     }
 
+    override fun onForgetClicked() {
+        Log.i(CLASS_TAG, "forget password for ${_mUserDAO!!.getEmail()}")
+    }
+
+    override fun onSignupClicked() {
+        _mView?.registerUser()
+    }
+
     override fun validatePassword(): Boolean {
         val password = _mUserDAO?.getPassword()
         val viewPassword = _mView?.getPassword()
