@@ -13,6 +13,7 @@ import com.example.ppr_vote.BaseActivity
 import com.example.ppr_vote.R
 import com.example.ppr_vote.login.LoginController
 import com.example.ppr_vote.login.LoginPresenter
+import com.example.ppr_vote.menu.MenuActivity
 import com.example.ppr_vote.signup.view.SignupActivity
 import com.google.android.material.textfield.TextInputEditText
 import kotlinx.android.synthetic.main.activity_login.*
@@ -54,6 +55,8 @@ class LoginActivity : BaseActivity(), LoginController.View {
     override fun welcomeUser() {
         Log.i(CLASS_TAG, "Welcome ${getEmail()}")
         Toast.makeText(this, "Welcome ${getEmail()}", Toast.LENGTH_LONG).show()
+
+        startActivity(Intent(this, MenuActivity::class.java))
     }
 
     override fun registerUser() {

@@ -9,5 +9,5 @@
     <color name="colorSurface">#ffffff</color>
     <color name="colorError">#9b0000</color>
 
-    <color name="colorDisable">#9fafafaf</color>
+    <color name="colorDisable">#5fafafaf</color>
 </resources>

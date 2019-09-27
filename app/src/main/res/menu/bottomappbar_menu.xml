@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+    <group android:checkableBehavior="none">
+        <item
+                android:id="@+id/nav1"
+                android:icon="@android:drawable/ic_delete"
+                android:title="item 1" />
+        <item
+                android:id="@+id/nav2"
+                android:icon="@android:drawable/ic_menu_more"
+                android:title="item 2" />
+        <item
+                android:id="@+id/nav3"
+                android:icon="@android:drawable/ic_btn_speak_now"
+                android:title="item 3" />
+    </group>
+</menu>
